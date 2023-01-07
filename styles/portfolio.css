@@ -12,8 +12,8 @@ a {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding-right: 200px;
-    padding-top: 0px;
+    padding-right: 250px;
+    padding-top: 80px;
     text-align: right;
     margin-bottom: 100px;
     background-repeat: no-repeat;
@@ -69,9 +69,9 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    margin-bottom: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-bottom: 120px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .failure-details {
     padding-top: 80px;
@@ -82,6 +82,7 @@ a {
     line-height: 67px;
     color: #151414;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 .failure-details-description {
     font-weight: 400;
@@ -89,6 +90,9 @@ a {
     line-height: 26px;
     color: #444343;
     padding-bottom: 30px;
+}
+.failure-point-icon {
+    padding-right: 8px;
 }
 /* skills portion */
 .skill-div {
@@ -124,8 +128,11 @@ a {
     line-height: 24px;
     text-align: right center;
     padding-bottom: 20px;
-
     color: #282828;
+}
+#skill-list-title-4 {
+    text-align: left;
+    padding-right: 22px;
 }
 .skill-list-details {
     font-weight: 700;

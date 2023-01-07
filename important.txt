@@ -1,0 +1,1 @@
+This website is made for 1366x768 viewport(browser page zoom 80%)
