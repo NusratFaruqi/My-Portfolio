@@ -1,0 +1,257 @@
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/* header portion */
+.header {
+    background-image: url(/images/banner/banner2.png);
+    height: 809px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 200px;
+    padding-top: 0px;
+    text-align: right;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: right;
+    padding-bottom: 30px;
+}
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    padding-bottom: 30px;
+}
+/* button portion */
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    background-color: #f15b22;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    color: #ffffff;
+    padding: 15px 30px;
+}
+.btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: white;
+    color: #f15b22;
+    border: none;
+    border-radius: 5px;
+}
+/* failure portion */
+
+.failure-point-list {
+    display: flex;
+}
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.failure-details {
+    padding-top: 80px;
+}
+.failure-details-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 67px;
+    color: #151414;
+    padding-bottom: 40px;
+}
+.failure-details-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 30px;
+}
+/* skills portion */
+.skill-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    margin-bottom: 80px;
+}
+.skill-details-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.skill-details-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 45px;
+    color: #282828;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.skill-details-desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #282828;
+    padding-bottom: 50px;
+}
+.skill-list-title {
+    /* padding-top: 50px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right center;
+    padding-bottom: 20px;
+
+    color: #282828;
+}
+.skill-list-details {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #282828;
+}
+.skill-list {
+    padding-right: 40px;
+}
+/* plan portion */
+.plan {
+    margin-bottom: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.plan-title {
+    text-align: center;
+    padding-bottom: 120px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 47px;
+}
+.plan-details {
+    display: flex;
+    justify-content: space-between;
+}
+.plan-list * {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.plan-list-title {
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+.plan-list-description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+/* banner portion */
+.banner {
+    margin-bottom: 130px;
+    height: 300px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/watch.png);
+    border-radius: 5px;
+}
+.banner-div {
+    height: 300px;
+    width: 1140px;
+
+    background-image: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+    border-radius: 5px;
+}
+.banner-title {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+#btn-secondary-1 {
+    margin-top: 15px;
+    margin-left: 0px;
+}
+/* footer portion */
+.footer {
+    background: #151414;
+    height: 577px;
+}
+.footer-div {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #f8f8f8;
+    padding-bottom: 40px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+.footer-icon-list * {
+    padding-right: 10px;
+}
+.footer-mail-title {
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+.email-input {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #151414;
+    margin-bottom: 24px;
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #f3f3f3;
+    padding-left: 15px;
+}
